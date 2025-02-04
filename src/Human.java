@@ -27,7 +27,6 @@ public class Human {
         this.mother = mother;
     }
 
-    // Constructor with all fields
     public Human(String name, String surname, int year, int iq, Pet pet, Human mother, Human father, String[][] schedule) {
         this.name = name;
         this.surname = surname;
