@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        // Family 1
+        
         String[] habits = {
                 "eat",
                 "play",
@@ -9,13 +9,13 @@ public class Main {
                 "sleep"
         };
         Pet pet1 = new Pet("dog", "Qezenfer", 5, 31, habits);
-        Human mother1 = new Human("Jane", "Karleone", 1950);
-        Human father1 = new Human("Vito", "Karleone", 1945, null, null);
+        Human mother1 = new Human("Cavid", "Nazarov", 2005);
+        Human father1 = new Human("Sanani", "Zeynalli", 2006, null, null);
         String[][] schedule1 = {
                 {"Monday", "Gym"},
-                {"Tuesday", "School"}
+                {"Tuesday", "Home"}
         };
-        Human child1 = new Human("Michael", "Karleone", 1977, 90, pet1, mother1, father1, schedule1);
+        Human child1 = new Human("cavid", "nezerli", 2015, 90, pet1, mother1, father1, schedule1);
 
         System.out.println(mother1);
         System.out.println(father1);
