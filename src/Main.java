@@ -27,7 +27,6 @@ public class Main {
         pet1.foul();
         child1.describePet();
 
-        // Family 2
         Pet pet2 = new Pet("cat", "Mesi");
         Human mother2 = new Human("Anna", "Karenina", 1880);
         Human father2 = new Human("Alexei", "Karenin", 1878, mother2, null);
